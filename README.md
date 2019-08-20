@@ -1,5 +1,33 @@
-#一个 vue-cli 的模板
-主要是添加了一些常用的功能 1. 添加了 eslint,
+# 一个 vue-cli 的模板
+
+主要是添加了一些常用的功能
+
+1. 添加了 eslint+prettier 的一些设置,主要是统一代码风格
+2. 添加了 axios 模块
+3. 添加 Elment 模块
+
+## 配置 vscode 设置
+
+```
+"vetur.validation.template": false,
+    "eslint.validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+    ],
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange"
+```
 
 ## Project setup
 
